@@ -15,6 +15,7 @@ import {
   estimateMaterialFootprint,
 } from '../engine/legalCompliance.js';
 import { I18N } from './i18n.js';
+import { APP_TEMPLATE } from './template.js';
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
@@ -539,6 +540,11 @@ async function loadProvenanceManifest() {
 
 // ---------------- INIT ----------------
 function init() {
+  const appContainer = document.getElementById('app');
+  if (appContainer) {
+    appContainer.innerHTML = APP_TEMPLATE;
+  }
+
   document.querySelectorAll('.lang-btn').forEach((btn) => {
     btn.addEventListener('click', () => applyLanguage(btn.getAttribute('data-lang')));
   });

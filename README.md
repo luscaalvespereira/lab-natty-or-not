@@ -65,11 +65,11 @@ O projeto responde de forma transparente — **Sim/Não (nível de risco), Como,
 
 ```mermaid
 flowchart LR
-    U[Usuário / Auditor] --> UI[Web App Trilíngue PT / EN / ES]
-    UI --> T1[1. Arena Forense<br/>6 Casos + Fisher-Yates O n]
-    UI --> T2[2. Auditor Real vs. Fake<br/>Shannon / Tukey / TF-IDF + SHA-256 Local]
-    UI --> T3[3. Lab Cibersegurança<br/>Bloom / OWASP LLM / Nonce + Hospitais]
-    UI --> T4[4. Auditor Jurídico<br/>LGPD / PL 2338 / EU AI Act / Disparate Impact]
+    U["Usuário / Auditor"] --> UI["Web App VeritasNatty"]
+    UI --> T1["1. Arena Forense (6 Casos)"]
+    UI --> T2["2. Auditor Real vs Fake"]
+    UI --> T3["3. Lab Cibersegurança"]
+    UI --> T4["4. Auditor Jurídico"]
 ```
 
 1. **Arquitetura desacoplada:** toda a matemática, segurança e regras jurídicas residem em módulos puros (`src/engine/*.js`) sem dependência de DOM, permitindo validar exatamente o mesmo código tanto no navegador quanto em testes automatizados Node.js.

@@ -1,0 +1,7 @@
+# Configuração do GitHub Linguist
+# Garante que o GitHub classifique o repositório como JavaScript puro de engenharia de software
+
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.json linguist-detectable=false
+scripts/* linguist-vendored=true

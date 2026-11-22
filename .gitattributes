@@ -1,16 +1,10 @@
-# Configuração do GitHub Linguist
-# Elimina HTML e CSS das estatísticas para exibir 100% JavaScript para recrutadores
-
+# Força o GitHub a classificar 100% do repositório como JavaScript
+*.html linguist-language=JavaScript
+*.css linguist-language=JavaScript
+*.html -linguist-detectable
+*.css -linguist-detectable
 *.html linguist-vendored
-*.html linguist-documentation
-index.html linguist-vendored
-index.html linguist-documentation
-
 *.css linguist-vendored
-*.css linguist-documentation
-
-*.json linguist-vendored
-*.json linguist-documentation
-
-scripts/* linguist-vendored
-tests/* linguist-documentation
+index.html linguist-language=JavaScript
+index.html -linguist-detectable
+index.html linguist-vendored

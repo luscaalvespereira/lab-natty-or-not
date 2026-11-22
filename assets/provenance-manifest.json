@@ -1,0 +1,121 @@
+{
+  "project": "VeritasNatty — Audit & Shield",
+  "schemaVersion": "1.0.0",
+  "hashAlgorithm": "SHA-256",
+  "generatedAtUtc": "2026-11-22T01:37:25.485Z",
+  "totalTrackedFiles": 16,
+  "files": [
+    {
+      "path": "index.html",
+      "classification": "NATTY",
+      "bytes": 16211,
+      "sha256": "eb593e80c2d224d0e7e54cba0fbe94f3371962dfeb4b9c160e3d2300098ff9c4",
+      "note": "Interface principal escrita e estruturada manualmente"
+    },
+    {
+      "path": "vercel.json",
+      "classification": "NATTY",
+      "bytes": 996,
+      "sha256": "38a4e80ba735bf96c100a7030443915c492bb92695269099339101779bbce3c9",
+      "note": "Configuração e Security Headers HTTP de produção"
+    },
+    {
+      "path": "styles/main.css",
+      "classification": "NATTY",
+      "bytes": 9960,
+      "sha256": "ae2d6dfcd0dcfd24175d0471363595acc07b784861aadfec1b675f3691ed9c4e",
+      "note": "Folha de estilos responsiva autoral"
+    },
+    {
+      "path": "src/ui/i18n.js",
+      "classification": "NATTY",
+      "bytes": 9240,
+      "sha256": "c450e1666c75c18ed68ada3147b51ddfbc79e15f646467bb61b947f17f328ac6",
+      "note": "Dicionário multilíngue PT/EN/ES"
+    },
+    {
+      "path": "src/ui/app.js",
+      "classification": "NATTY",
+      "bytes": 24395,
+      "sha256": "bf3f3ccc58bb84bd5e11dba6c46255972d174c7df944a7e4550de5236e2d7092",
+      "note": "Controlador DOM seguro (zero HTML bruto não sanitizado)"
+    },
+    {
+      "path": "src/engine/textForensics.js",
+      "classification": "NATTY",
+      "bytes": 11686,
+      "sha256": "f077e8ab25ae65542d33ddd02bb82bd6961d5be52fea8b73e7bbf9c90b07da35",
+      "note": "Motor estatístico (Shannon, Tukey IQR, TF-IDF/Cosseno)"
+    },
+    {
+      "path": "src/engine/fileForensics.js",
+      "classification": "NATTY",
+      "bytes": 7670,
+      "sha256": "f9b6ad436e8b001f977b9f0acb113a5dfdd8dfbebd3941debded3c7fa14f4d03",
+      "note": "Inspetor SHA-256, Magic Bytes e metadados locais"
+    },
+    {
+      "path": "src/engine/securityEngine.js",
+      "classification": "NATTY",
+      "bytes": 11393,
+      "sha256": "e27af20473e0395d23eb13dce214e57686b33e336bfde120859636c66a8edceb",
+      "note": "Filtro de Bloom, scanner OWASP/DLP e Nonce Hardening"
+    },
+    {
+      "path": "src/engine/legalCompliance.js",
+      "classification": "NATTY",
+      "bytes": 10246,
+      "sha256": "8552e1d25bf4b456f32efb360190f5574182931d00cbfbed6337a2188f469ec8",
+      "note": "Motor LGPD, PL 2338/2023, EU AI Act, Fairness e Pegada"
+    },
+    {
+      "path": "src/engine/arenaEngine.js",
+      "classification": "NATTY",
+      "bytes": 2874,
+      "sha256": "02866eb54571260f9ff80ae53958ed44fc86620000ffa49a4764fde0a697071b",
+      "note": "Embaralhamento Fisher-Yates O(n) e avaliação Turing"
+    },
+    {
+      "path": "src/data/cases.js",
+      "classification": "NATTY",
+      "bytes": 13394,
+      "sha256": "a2e0798ddc3bfa40281d3338eaf9a234c3a8d4785ea9dcffa3b3173ebd1104a8",
+      "note": "Curadoria e laudos forenses dos 6 casos (contém cenários sintéticos documentados)"
+    },
+    {
+      "path": "src/data/attackSurface.js",
+      "classification": "NATTY",
+      "bytes": 5278,
+      "sha256": "64360cb80b2f31187872bc1e4409b3e3a52a2cd2088a3a650112281e8f20f37a",
+      "note": "Matriz de superfície de ataque em hospitais, empresas e sociedade"
+    },
+    {
+      "path": "assets/veritasnatty-banner.gif",
+      "classification": "NATTY",
+      "bytes": 141553,
+      "sha256": "ae017d6ff5b11c37cf3967ffa343b73dcbd9eac0ef85ab1d8df4301bc2f1f190",
+      "note": "GIF89a animado gerado deterministicamente via algoritmo próprio em Node.js"
+    },
+    {
+      "path": "assets/images/case-hospital-ai.png",
+      "classification": "FAKE_NATTY",
+      "bytes": 2228664,
+      "sha256": "33cbb74ca186d0ef267c3eac1154e53ffd1f3e3377a654ddc190c1d68ea440ac",
+      "note": "Imagem sintética gerada por IA Generativa (cenário estação hospitalar)"
+    },
+    {
+      "path": "assets/images/case-social-eng-v1.png",
+      "classification": "FAKE_NATTY",
+      "bytes": 2202643,
+      "sha256": "f7f94d352c43cfec6e1443eee899746e38004da3b82f3da71c9c9ac54c5ccc5c",
+      "note": "Imagem sintética gerada por IA Generativa (prompt ingênuo v1)"
+    },
+    {
+      "path": "assets/images/case-social-eng-v2.png",
+      "classification": "FAKE_NATTY",
+      "bytes": 2627032,
+      "sha256": "4c52b1d9d588bd7dae90fe5f73f67d6e12a952cd4a239ec16eb2e5dece04086d",
+      "note": "Imagem sintética gerada por IA Generativa (prompt dirigido v2)"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "veritasnatty-audit-shield",
+  "version": "1.0.0",
+  "description": "VeritasNatty — Audit & Shield: Laboratório Forense, Estatístico, Jurídico e de Cibersegurança em IA Generativa (DIO lab-natty-or-not).",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs",
+    "manifest": "node scripts/generate-manifest.mjs",
+    "verify": "node scripts/generate-manifest.mjs --verify",
+    "start": "node scripts/dev-server.mjs"
+  },
+  "author": "Lucas Alves Pereira",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

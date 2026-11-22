@@ -18,7 +18,7 @@
 
 > *"Natural or Fake Natty? Don't trust appearances — audit the data, harden the code, close the legal gap."*
 
-**Live Web App (Vercel):** `https://lab-natty-or-not.vercel.app` *(update after importing the repository on Vercel)*  
+**Live Web App (Vercel):** [https://lab-natty-or-not-blue.vercel.app/](https://lab-natty-or-not-blue.vercel.app/)  
 **DIO Lab Challenge:** *Natural ou Fake Natty? Como Vencer na Era das IAs Generativas!* (`#LabDIONattyOrNot`)
 
 ---
